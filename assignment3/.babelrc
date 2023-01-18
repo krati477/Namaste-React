@@ -1,0 +1,4 @@
+//for production only
+{
+  //"plugins":[ ["transform-remove-console", { "exclude": ["error", "warning"] }]]
+}

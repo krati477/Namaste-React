@@ -1,0 +1,41 @@
+body{
+    background-color: bisque;
+}
+.logo{
+    height:120px;
+    width:170px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+    border: 1px solid black;
+}
+
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > ul > li{
+    padding: 10px;
+}
+
+.card{
+    width: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card > img{
+    width: 100%;
+}
+
+.restaurant-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

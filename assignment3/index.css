@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+}
+#container{
+    background-color: brown;
+    color:whitesmoke;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.header-component{
+    width:98%;
+    background-color: azure;
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    border: 2px solid gold;
+}
+
+.logo > img{
+    height:70px;
+    width:100px;
+    object-fit: cover;   
+}
+
+.search{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search > input{
+    height:25px;
+    width:200px;
+
+}
+.search > button{
+    height:31px;
+    background-color: burlywood;
+    border:none;
+    border-radius: 5px;
+}
+
+.user > img{
+    height:70px;
+    width:70px;   
+}
